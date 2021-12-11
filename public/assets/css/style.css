@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin: 0 auto;
+    padding: 30px 10px;
+    width: 960px;
+    min-height: 1px;
+}
+.add-edit-table, .list-table {
+    margin: 0 auto;
+    border: 1px solid silver;
+    border-collapse: collapse;
+}
+.add-edit-table thead tr, .list-table thead tr {
+    border-bottom: 1px solid silver;
+}
+.add-edit-table tfoot tr, .list-table tfoot tr {
+    border-top: 1px solid silver;
+}
+.add-edit-table th, td, .list-table th, td {
+    padding: 5px 10px;
+}
+.add-edit-table tr:first-child td, .list-table tr:first-child td {
+    padding-top: 10px;
+}
+.add-edit-table tr:last-child td, .list-table tr:last-child td {
+    padding-bottom: 10px;
+}
+.list-table {
+    width: 100%;
+}
+.list-table td {
+    text-align: center;
+}
+.list-table tr td:last-child {
+    text-align: right;
+}
+input, select, button {
+    padding: 3px 5px;
+}
+#alert {
+    margin-bottom: 10px;
+    text-align: center;
+}
+#alert #success, #alert #danger {
+    padding: 5px 10px;
+    font-weight: bold;
+    opacity: 0.5;
+}
+#success {
+    color: green;
+    background-color: whitesmoke;
+}
+#danger {
+    color: red;
+    background-color: whitesmoke;
+}

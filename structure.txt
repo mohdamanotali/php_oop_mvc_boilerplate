@@ -1,0 +1,28 @@
+Project Directory Structure
+***************************
+
+= config
+----= dotenv.php  (defined configurations)
+----=router.php  (route processing)
+
+= core
+----= controllers  (contains all controllers, i.e.- ...Controller.php)
+----= models  (contains all models, i.e.- ....php)
+--------= Database.php  (base model)
+----= traits  (contains all models, i.e.- ...Trait.php)
+--------= CommonTrait.php  (common trait for processing log, view etc.)
+
+= public
+----= assets
+--------= css  (contains all .css files)
+--------= js  (contains all .js files)
+--------= img  (contains all image files)
+----= logs  (contains all .log files)
+----= resources  (contains all uploaded files)
+----= app.php  (main .php file where all the routes are redirected to)
+
+= templates
+----= partials  (contains common header, footer, sidebar etc view files)
+----= views  (contains route or operation related view files)
+
+= .htaccess
